@@ -7,23 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442504082656C29000417BAF /* count-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 442504072656C29000417BAF /* count-2.png */; };
+		4425040B2656CE4500417BAF /* RollTheDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4425040A2656CE4500417BAF /* RollTheDiceViewController.swift */; };
+		442ECF9026484EB7006AE07F /* SpriteHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ECF8F26484EB7006AE07F /* SpriteHomeViewController.swift */; };
+		442ECF9226484FA8006AE07F /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ECF9126484FA8006AE07F /* WelcomeScene.swift */; };
+		443ED809264AF6B300566F4C /* AddItUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED808264AF6B300566F4C /* AddItUpViewController.swift */; };
+		443ED812264AF9F600566F4C /* MakeTenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED811264AF9F600566F4C /* MakeTenViewController.swift */; };
+		443ED814264AFA2200566F4C /* MakeTenGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED813264AFA2200566F4C /* MakeTenGameScene.swift */; };
+		443ED816264AFADC00566F4C /* MakeTenGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 443ED815264AFADC00566F4C /* MakeTenGameScene.sks */; };
+		443ED839264AFFCD00566F4C /* PickleRaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED838264AFFCD00566F4C /* PickleRaceViewController.swift */; };
+		443ED83B264AFFFF00566F4C /* PickleRaceGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED83A264AFFFF00566F4C /* PickleRaceGameScene.swift */; };
+		443ED83D264B001C00566F4C /* PickleRaceGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 443ED83C264B001C00566F4C /* PickleRaceGameScene.sks */; };
+		443ED840264B012B00566F4C /* PizzaPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED83F264B012B00566F4C /* PizzaPartyViewController.swift */; };
+		443ED844264B017000566F4C /* PizzaPartyGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED843264B017000566F4C /* PizzaPartyGameScene.swift */; };
+		443ED846264B018800566F4C /* PizzaPartyGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 443ED845264B018800566F4C /* PizzaPartyGameScene.sks */; };
+		443ED84E264B059700566F4C /* NumberLineGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED84D264B059700566F4C /* NumberLineGameScene.swift */; };
+		443ED850264B05B600566F4C /* NumberLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED84F264B05B600566F4C /* NumberLineViewController.swift */; };
+		443ED852264B05D000566F4C /* NumberLineGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 443ED851264B05D000566F4C /* NumberLineGameScene.sks */; };
+		443ED856264B079000566F4C /* TenFramesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED855264B079000566F4C /* TenFramesViewController.swift */; };
+		443ED85A264B080700566F4C /* TenFramesGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED859264B080700566F4C /* TenFramesGameScene.swift */; };
+		443ED85C264B082900566F4C /* TenFramesGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 443ED85B264B082900566F4C /* TenFramesGameScene.sks */; };
+		443ED85E264B08E200566F4C /* tenFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED85D264B08E200566F4C /* tenFrame.png */; };
+		443ED860264B158C00566F4C /* rollTheDiceLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED85F264B158C00566F4C /* rollTheDiceLogo.png */; };
+		443ED86E264B1A2D00566F4C /* smGYFSgamesLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED86D264B1A2D00566F4C /* smGYFSgamesLogo.png */; };
+		443ED872264B1DA700566F4C /* BluePickle.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED871264B1DA700566F4C /* BluePickle.png */; };
+		443ED874264B1DD900566F4C /* RedPickle.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED873264B1DD900566F4C /* RedPickle.png */; };
+		443ED876264B203800566F4C /* pickleRaceBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED875264B203800566F4C /* pickleRaceBackground.png */; };
+		443ED87A264B217500566F4C /* blankCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED879264B217500566F4C /* blankCard.png */; };
+		443ED87D264B669400566F4C /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED87C264B669400566F4C /* CacheManager.swift */; };
+		443ED87F264B66BF00566F4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED87E264B66BF00566F4C /* Constants.swift */; };
+		443ED881264B66E800566F4C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED880264B66E800566F4C /* DetailViewController.swift */; };
+		443ED883264B674500566F4C /* MathStoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED882264B674500566F4C /* MathStoriesTableViewCell.swift */; };
+		443ED885264B677C00566F4C /* MathStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED884264B677C00566F4C /* MathStoriesViewController.swift */; };
+		443ED887264B67A500566F4C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED886264B67A500566F4C /* Model.swift */; };
+		443ED889264B67CA00566F4C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED888264B67CA00566F4C /* Response.swift */; };
+		443ED88B264B67E700566F4C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED88A264B67E700566F4C /* Video.swift */; };
+		44554BA12666736D00EC5A64 /* WelcomeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44554BA02666736D00EC5A64 /* WelcomeScene.sks */; };
+		44554BA7266674D900EC5A64 /* Background-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BA6266674D900EC5A64 /* Background-7.png */; };
+		44554BAF266676E400EC5A64 /* dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BAE266676E400EC5A64 /* dog1.png */; };
+		44554BB9266676F100EC5A64 /* dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB0266676F100EC5A64 /* dog1.png */; };
+		44554BBA266676F100EC5A64 /* dogSpeak.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB1266676F100EC5A64 /* dogSpeak.png */; };
+		44554BBC266676F100EC5A64 /* dog7.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB3266676F100EC5A64 /* dog7.png */; };
+		44554BBD266676F100EC5A64 /* dog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB4266676F100EC5A64 /* dog3.png */; };
+		44554BBE266676F100EC5A64 /* wag2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB5266676F100EC5A64 /* wag2-2.png */; };
+		44554BBF266676F100EC5A64 /* dog5-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB6266676F100EC5A64 /* dog5-2.png */; };
+		44554BC0266676F100EC5A64 /* dog2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB7266676F100EC5A64 /* dog2-2.png */; };
+		44554BC1266676F100EC5A64 /* dog4.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BB8266676F100EC5A64 /* dog4.png */; };
+		44554BC32666782100EC5A64 /* practice.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BC22666782100EC5A64 /* practice.png */; };
+		44554BC52666792300EC5A64 /* getStartedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BC42666792300EC5A64 /* getStartedButton.png */; };
+		44554BC92666890600EC5A64 /* sayMyName.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 44554BC8266688F800EC5A64 /* sayMyName.m4a */; };
+		44554BF12667C54B00EC5A64 /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44554BF02667C54B00EC5A64 /* CountViewController.swift */; };
+		44554BF3266A6BA900EC5A64 /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BF2266A6BA900EC5A64 /* logo1024.png */; };
+		44554BF5266A6C6C00EC5A64 /* circleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BF4266A6C6C00EC5A64 /* circleLogo.png */; };
+		44554C47267003A800EC5A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44554C46267003A800EC5A64 /* Assets.xcassets */; };
+		44554C49267032A500EC5A64 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554C48267032A500EC5A64 /* backButton.png */; };
+		4484A99C2662D713000E1BB6 /* Dice.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4484A99B2662D713000E1BB6 /* Dice.rcproject */; };
+		4484A99E2663F9CC000E1BB6 /* Pickle Race theme.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4484A99D2663F607000E1BB6 /* Pickle Race theme.m4a */; };
+		44929A272650218900C2C770 /* GamesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44929A262650218900C2C770 /* GamesMenuViewController.swift */; };
+		44929A2B265027EE00C2C770 /* GamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44929A2A265027EE00C2C770 /* GamesCollectionViewCell.swift */; };
 		4492A15D26480E5800BCA9AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492A15C26480E5800BCA9AD /* AppDelegate.swift */; };
 		4492A15F26480E5800BCA9AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492A15E26480E5800BCA9AD /* SceneDelegate.swift */; };
-		4492A16126480E5800BCA9AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492A16026480E5800BCA9AD /* ViewController.swift */; };
 		4492A16426480E5800BCA9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4492A16226480E5800BCA9AD /* Main.storyboard */; };
-		4492A16626480E5900BCA9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4492A16526480E5900BCA9AD /* Assets.xcassets */; };
 		4492A16926480E5900BCA9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4492A16726480E5900BCA9AD /* LaunchScreen.storyboard */; };
+		44C7D0C0265D3CDC007F9A1F /* NumberLineBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0BF265D3CDB007F9A1F /* NumberLineBackground.png */; };
+		44C7D0C2265D910A007F9A1F /* PizzaPartyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0C1265D910A007F9A1F /* PizzaPartyLogo.png */; };
+		44C7D0C6265D930B007F9A1F /* Mushrooms.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0C5265D930B007F9A1F /* Mushrooms.png */; };
+		44C7D0CA265D9573007F9A1F /* pepperoni.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0C9265D9573007F9A1F /* pepperoni.png */; };
+		44C7D0D2265FED7C007F9A1F /* card0-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0D1265FED7C007F9A1F /* card0-3.png */; };
+		44C7D0DD26607330007F9A1F /* Pizza Party theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0DC26607330007F9A1F /* Pizza Party theme.mp3 */; };
+		44EC353C264821CA00F4F8E2 /* peppers.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3518264821C900F4F8E2 /* peppers.png */; };
+		44EC3540264821CA00F4F8E2 /* dealButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC351C264821C900F4F8E2 /* dealButton.png */; };
+		44EC3551264821CA00F4F8E2 /* deal.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC352D264821C900F4F8E2 /* deal.png */; };
+		44EC3552264821CA00F4F8E2 /* peppers-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC352E264821C900F4F8E2 /* peppers-2.png */; };
+		44EC3558264821CA00F4F8E2 /* large dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3534264821CA00F4F8E2 /* large dot.png */; };
+		44EC355A264821CA00F4F8E2 /* pineapples.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3536264821CA00F4F8E2 /* pineapples.png */; };
+		44EC356F264821DF00F4F8E2 /* dotRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3564264821DF00F4F8E2 /* dotRed.png */; };
+		44EC3571264821DF00F4F8E2 /* WhiteBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3566264821DF00F4F8E2 /* WhiteBackground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		442504072656C29000417BAF /* count-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "count-2.png"; path = "../../../../Downloads/count-2.png"; sourceTree = "<group>"; };
+		4425040A2656CE4500417BAF /* RollTheDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDiceViewController.swift; sourceTree = "<group>"; };
+		442ECF8F26484EB7006AE07F /* SpriteHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteHomeViewController.swift; sourceTree = "<group>"; };
+		442ECF9126484FA8006AE07F /* WelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
+		443ED808264AF6B300566F4C /* AddItUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItUpViewController.swift; sourceTree = "<group>"; };
+		443ED811264AF9F600566F4C /* MakeTenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTenViewController.swift; sourceTree = "<group>"; };
+		443ED813264AFA2200566F4C /* MakeTenGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTenGameScene.swift; sourceTree = "<group>"; };
+		443ED815264AFADC00566F4C /* MakeTenGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MakeTenGameScene.sks; sourceTree = "<group>"; };
+		443ED838264AFFCD00566F4C /* PickleRaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickleRaceViewController.swift; sourceTree = "<group>"; };
+		443ED83A264AFFFF00566F4C /* PickleRaceGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickleRaceGameScene.swift; sourceTree = "<group>"; };
+		443ED83C264B001C00566F4C /* PickleRaceGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PickleRaceGameScene.sks; sourceTree = "<group>"; };
+		443ED83F264B012B00566F4C /* PizzaPartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPartyViewController.swift; sourceTree = "<group>"; };
+		443ED843264B017000566F4C /* PizzaPartyGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPartyGameScene.swift; sourceTree = "<group>"; };
+		443ED845264B018800566F4C /* PizzaPartyGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PizzaPartyGameScene.sks; sourceTree = "<group>"; };
+		443ED84D264B059700566F4C /* NumberLineGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineGameScene.swift; sourceTree = "<group>"; };
+		443ED84F264B05B600566F4C /* NumberLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineViewController.swift; sourceTree = "<group>"; };
+		443ED851264B05D000566F4C /* NumberLineGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = NumberLineGameScene.sks; sourceTree = "<group>"; };
+		443ED855264B079000566F4C /* TenFramesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenFramesViewController.swift; sourceTree = "<group>"; };
+		443ED859264B080700566F4C /* TenFramesGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenFramesGameScene.swift; sourceTree = "<group>"; };
+		443ED85B264B082900566F4C /* TenFramesGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TenFramesGameScene.sks; sourceTree = "<group>"; };
+		443ED85D264B08E200566F4C /* tenFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tenFrame.png; path = ../../../GYFS/GYFS/Assets.xcassets/tenFrame.imageset/tenFrame.png; sourceTree = "<group>"; };
+		443ED85F264B158C00566F4C /* rollTheDiceLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rollTheDiceLogo.png; path = ../../../../Downloads/rollTheDiceLogo.png; sourceTree = "<group>"; };
+		443ED86D264B1A2D00566F4C /* smGYFSgamesLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smGYFSgamesLogo.png; path = ../../../../Downloads/smGYFSgamesLogo.png; sourceTree = "<group>"; };
+		443ED871264B1DA700566F4C /* BluePickle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BluePickle.png; path = ../../../GYFS/GYFS/Assets.xcassets/BluePickle.imageset/BluePickle.png; sourceTree = "<group>"; };
+		443ED873264B1DD900566F4C /* RedPickle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedPickle.png; path = ../../../GYFS/GYFS/Assets.xcassets/RedPickle.imageset/RedPickle.png; sourceTree = "<group>"; };
+		443ED875264B203800566F4C /* pickleRaceBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickleRaceBackground.png; path = ../../../pickleRaceBackground.png; sourceTree = "<group>"; };
+		443ED879264B217500566F4C /* blankCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blankCard.png; path = ../../../../Downloads/blankCard.png; sourceTree = "<group>"; };
+		443ED87C264B669400566F4C /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		443ED87E264B66BF00566F4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		443ED880264B66E800566F4C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		443ED882264B674500566F4C /* MathStoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStoriesTableViewCell.swift; sourceTree = "<group>"; };
+		443ED884264B677C00566F4C /* MathStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStoriesViewController.swift; sourceTree = "<group>"; };
+		443ED886264B67A500566F4C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		443ED888264B67CA00566F4C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		443ED88A264B67E700566F4C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		44554BA02666736D00EC5A64 /* WelcomeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = WelcomeScene.sks; path = ../../GYFSWelcome/GYFSWelcome/WelcomeScene.sks; sourceTree = "<group>"; };
+		44554BA6266674D900EC5A64 /* Background-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background-7.png"; path = "../../../../Downloads/Background-7.png"; sourceTree = "<group>"; };
+		44554BAE266676E400EC5A64 /* dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog1.png; path = ../../../../Downloads/dog1.png; sourceTree = "<group>"; };
+		44554BB0266676F100EC5A64 /* dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog1.png; path = ../../../../Downloads/dog1.png; sourceTree = "<group>"; };
+		44554BB1266676F100EC5A64 /* dogSpeak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogSpeak.png; path = ../../../../Downloads/dogSpeak.png; sourceTree = "<group>"; };
+		44554BB3266676F100EC5A64 /* dog7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog7.png; path = ../../../../Downloads/dog7.png; sourceTree = "<group>"; };
+		44554BB4266676F100EC5A64 /* dog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog3.png; path = ../../../../Downloads/dog3.png; sourceTree = "<group>"; };
+		44554BB5266676F100EC5A64 /* wag2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wag2-2.png"; path = "../../../../Downloads/wag2-2.png"; sourceTree = "<group>"; };
+		44554BB6266676F100EC5A64 /* dog5-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dog5-2.png"; path = "../../../../Downloads/dog5-2.png"; sourceTree = "<group>"; };
+		44554BB7266676F100EC5A64 /* dog2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dog2-2.png"; path = "../../../../Downloads/dog2-2.png"; sourceTree = "<group>"; };
+		44554BB8266676F100EC5A64 /* dog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog4.png; path = ../../../../Downloads/dog4.png; sourceTree = "<group>"; };
+		44554BC22666782100EC5A64 /* practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = practice.png; path = ../../../../Downloads/practice.png; sourceTree = "<group>"; };
+		44554BC42666792300EC5A64 /* getStartedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = getStartedButton.png; path = ../../../../Downloads/getStartedButton.png; sourceTree = "<group>"; };
+		44554BC8266688F800EC5A64 /* sayMyName.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sayMyName.m4a; path = ../../../sayMyName.m4a; sourceTree = "<group>"; };
+		44554BF02667C54B00EC5A64 /* CountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewController.swift; sourceTree = "<group>"; };
+		44554BF2266A6BA900EC5A64 /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1024.png; path = ../../../TenFramesCards/TenFramesCards/Assets.xcassets/AppIcon.appiconset/logo1024.png; sourceTree = "<group>"; };
+		44554BF4266A6C6C00EC5A64 /* circleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circleLogo.png; path = ../../../../Downloads/circleLogo.png; sourceTree = "<group>"; };
+		44554C46267003A800EC5A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../x/x/Assets.xcassets; sourceTree = "<group>"; };
+		44554C48267032A500EC5A64 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		4484A99B2662D713000E1BB6 /* Dice.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Dice.rcproject; sourceTree = "<group>"; };
+		4484A99D2663F607000E1BB6 /* Pickle Race theme.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pickle Race theme.m4a"; path = "../../../../Downloads/Seasons/Seasons/Sounds/Pickle Race theme.m4a"; sourceTree = "<group>"; };
+		44929A262650218900C2C770 /* GamesMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesMenuViewController.swift; sourceTree = "<group>"; };
+		44929A2A265027EE00C2C770 /* GamesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesCollectionViewCell.swift; sourceTree = "<group>"; };
 		4492A15926480E5800BCA9AD /* GYFSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYFSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4492A15C26480E5800BCA9AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4492A15E26480E5800BCA9AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4492A16026480E5800BCA9AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4492A16326480E5800BCA9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4492A16526480E5900BCA9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4492A16826480E5900BCA9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4492A16A26480E5900BCA9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C7D0BF265D3CDB007F9A1F /* NumberLineBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NumberLineBackground.png; path = ../../../../Downloads/NumberLineBackground.png; sourceTree = "<group>"; };
+		44C7D0C1265D910A007F9A1F /* PizzaPartyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PizzaPartyLogo.png; path = ../../../../Downloads/PizzaPartyLogo.png; sourceTree = "<group>"; };
+		44C7D0C5265D930B007F9A1F /* Mushrooms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mushrooms.png; path = ../../../../Downloads/Mushrooms.png; sourceTree = "<group>"; };
+		44C7D0C9265D9573007F9A1F /* pepperoni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepperoni.png; path = ../../../../Downloads/pepperoni.png; sourceTree = "<group>"; };
+		44C7D0D1265FED7C007F9A1F /* card0-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card0-3.png"; path = "../../../../Downloads/card0-3.png"; sourceTree = "<group>"; };
+		44C7D0DC26607330007F9A1F /* Pizza Party theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Pizza Party theme.mp3"; path = "../../../Pizza Party theme.mp3"; sourceTree = "<group>"; };
+		44EC3518264821C900F4F8E2 /* peppers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = peppers.png; path = ../../../GYFSAppAssets/peppers.png; sourceTree = "<group>"; };
+		44EC351C264821C900F4F8E2 /* dealButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dealButton.png; path = ../../../GYFSAppAssets/dealButton.png; sourceTree = "<group>"; };
+		44EC352D264821C900F4F8E2 /* deal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deal.png; path = ../../../GYFSAppAssets/deal.png; sourceTree = "<group>"; };
+		44EC352E264821C900F4F8E2 /* peppers-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peppers-2.png"; path = "../../../GYFSAppAssets/peppers-2.png"; sourceTree = "<group>"; };
+		44EC3534264821CA00F4F8E2 /* large dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "large dot.png"; path = "../../../GYFSAppAssets/large dot.png"; sourceTree = "<group>"; };
+		44EC3536264821CA00F4F8E2 /* pineapples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pineapples.png; path = ../../../GYFSAppAssets/pineapples.png; sourceTree = "<group>"; };
+		44EC3564264821DF00F4F8E2 /* dotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dotRed.png; path = ../../../GYFSAppAssets/dotRed.png; sourceTree = "<group>"; };
+		44EC3566264821DF00F4F8E2 /* WhiteBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteBackground.png; path = ../../../GYFSAppAssets/WhiteBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +177,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442504092656CE2C00417BAF /* RollTheDice */ = {
+			isa = PBXGroup;
+			children = (
+				4484A99B2662D713000E1BB6 /* Dice.rcproject */,
+				4425040A2656CE4500417BAF /* RollTheDiceViewController.swift */,
+			);
+			path = RollTheDice;
+			sourceTree = "<group>";
+		};
+		443ED80A264AF6C000566F4C /* AddItUp */ = {
+			isa = PBXGroup;
+			children = (
+				443ED808264AF6B300566F4C /* AddItUpViewController.swift */,
+			);
+			path = AddItUp;
+			sourceTree = "<group>";
+		};
+		443ED80B264AF96900566F4C /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				442504092656CE2C00417BAF /* RollTheDice */,
+				443ED83E264B00D400566F4C /* PizzaParty */,
+				443ED837264AFFA600566F4C /* PickleRace */,
+				443ED80C264AF98200566F4C /* MakeTen */,
+				443ED80A264AF6C000566F4C /* AddItUp */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		443ED80C264AF98200566F4C /* MakeTen */ = {
+			isa = PBXGroup;
+			children = (
+				443ED811264AF9F600566F4C /* MakeTenViewController.swift */,
+				443ED813264AFA2200566F4C /* MakeTenGameScene.swift */,
+				443ED815264AFADC00566F4C /* MakeTenGameScene.sks */,
+			);
+			path = MakeTen;
+			sourceTree = "<group>";
+		};
+		443ED837264AFFA600566F4C /* PickleRace */ = {
+			isa = PBXGroup;
+			children = (
+				443ED838264AFFCD00566F4C /* PickleRaceViewController.swift */,
+				443ED83A264AFFFF00566F4C /* PickleRaceGameScene.swift */,
+				443ED83C264B001C00566F4C /* PickleRaceGameScene.sks */,
+			);
+			path = PickleRace;
+			sourceTree = "<group>";
+		};
+		443ED83E264B00D400566F4C /* PizzaParty */ = {
+			isa = PBXGroup;
+			children = (
+				443ED83F264B012B00566F4C /* PizzaPartyViewController.swift */,
+				443ED843264B017000566F4C /* PizzaPartyGameScene.swift */,
+				443ED845264B018800566F4C /* PizzaPartyGameScene.sks */,
+			);
+			path = PizzaParty;
+			sourceTree = "<group>";
+		};
+		443ED847264B052C00566F4C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				443ED84A264B055700566F4C /* Count */,
+				443ED849264B054500566F4C /* TenFrames */,
+				443ED848264B053700566F4C /* NumberLine */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		443ED848264B053700566F4C /* NumberLine */ = {
+			isa = PBXGroup;
+			children = (
+				443ED84D264B059700566F4C /* NumberLineGameScene.swift */,
+				443ED84F264B05B600566F4C /* NumberLineViewController.swift */,
+				443ED851264B05D000566F4C /* NumberLineGameScene.sks */,
+			);
+			path = NumberLine;
+			sourceTree = "<group>";
+		};
+		443ED849264B054500566F4C /* TenFrames */ = {
+			isa = PBXGroup;
+			children = (
+				443ED855264B079000566F4C /* TenFramesViewController.swift */,
+				443ED859264B080700566F4C /* TenFramesGameScene.swift */,
+				443ED85B264B082900566F4C /* TenFramesGameScene.sks */,
+			);
+			path = TenFrames;
+			sourceTree = "<group>";
+		};
+		443ED84A264B055700566F4C /* Count */ = {
+			isa = PBXGroup;
+			children = (
+				44554BF02667C54B00EC5A64 /* CountViewController.swift */,
+			);
+			path = Count;
+			sourceTree = "<group>";
+		};
+		443ED87B264B667900566F4C /* MathStories */ = {
+			isa = PBXGroup;
+			children = (
+				443ED87C264B669400566F4C /* CacheManager.swift */,
+				443ED87E264B66BF00566F4C /* Constants.swift */,
+				443ED880264B66E800566F4C /* DetailViewController.swift */,
+				443ED882264B674500566F4C /* MathStoriesTableViewCell.swift */,
+				443ED884264B677C00566F4C /* MathStoriesViewController.swift */,
+				443ED886264B67A500566F4C /* Model.swift */,
+				443ED888264B67CA00566F4C /* Response.swift */,
+				443ED88A264B67E700566F4C /* Video.swift */,
+			);
+			path = MathStories;
+			sourceTree = "<group>";
+		};
 		4492A15026480E5800BCA9AD = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +308,69 @@
 		4492A15B26480E5800BCA9AD /* GYFSApp */ = {
 			isa = PBXGroup;
 			children = (
+				443ED87B264B667900566F4C /* MathStories */,
+				443ED847264B052C00566F4C /* Tools */,
+				443ED80B264AF96900566F4C /* Games */,
+				44EC35162648215000F4F8E2 /* Assets.atlas */,
 				4492A15C26480E5800BCA9AD /* AppDelegate.swift */,
 				4492A15E26480E5800BCA9AD /* SceneDelegate.swift */,
-				4492A16026480E5800BCA9AD /* ViewController.swift */,
 				4492A16226480E5800BCA9AD /* Main.storyboard */,
-				4492A16526480E5900BCA9AD /* Assets.xcassets */,
+				442ECF8F26484EB7006AE07F /* SpriteHomeViewController.swift */,
+				442ECF9126484FA8006AE07F /* WelcomeScene.swift */,
+				44554BA02666736D00EC5A64 /* WelcomeScene.sks */,
+				44929A262650218900C2C770 /* GamesMenuViewController.swift */,
+				44929A2A265027EE00C2C770 /* GamesCollectionViewCell.swift */,
 				4492A16726480E5900BCA9AD /* LaunchScreen.storyboard */,
+				44554C46267003A800EC5A64 /* Assets.xcassets */,
 				4492A16A26480E5900BCA9AD /* Info.plist */,
 			);
 			path = GYFSApp;
+			sourceTree = "<group>";
+		};
+		44EC35162648215000F4F8E2 /* Assets.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				44554C48267032A500EC5A64 /* backButton.png */,
+				44554BC42666792300EC5A64 /* getStartedButton.png */,
+				443ED85F264B158C00566F4C /* rollTheDiceLogo.png */,
+				44554BAE266676E400EC5A64 /* dog1.png */,
+				4484A99D2663F607000E1BB6 /* Pickle Race theme.m4a */,
+				442504072656C29000417BAF /* count-2.png */,
+				443ED875264B203800566F4C /* pickleRaceBackground.png */,
+				44554BA6266674D900EC5A64 /* Background-7.png */,
+				44554BB0266676F100EC5A64 /* dog1.png */,
+				44554BB7266676F100EC5A64 /* dog2-2.png */,
+				44554BB4266676F100EC5A64 /* dog3.png */,
+				44554BB8266676F100EC5A64 /* dog4.png */,
+				44554BF4266A6C6C00EC5A64 /* circleLogo.png */,
+				44554BB6266676F100EC5A64 /* dog5-2.png */,
+				44554BB3266676F100EC5A64 /* dog7.png */,
+				44554BB1266676F100EC5A64 /* dogSpeak.png */,
+				44554BB5266676F100EC5A64 /* wag2-2.png */,
+				443ED86D264B1A2D00566F4C /* smGYFSgamesLogo.png */,
+				443ED873264B1DD900566F4C /* RedPickle.png */,
+				44554BC8266688F800EC5A64 /* sayMyName.m4a */,
+				44554BF2266A6BA900EC5A64 /* logo1024.png */,
+				443ED879264B217500566F4C /* blankCard.png */,
+				44C7D0C9265D9573007F9A1F /* pepperoni.png */,
+				443ED871264B1DA700566F4C /* BluePickle.png */,
+				443ED85D264B08E200566F4C /* tenFrame.png */,
+				44C7D0D1265FED7C007F9A1F /* card0-3.png */,
+				44C7D0C1265D910A007F9A1F /* PizzaPartyLogo.png */,
+				44C7D0C5265D930B007F9A1F /* Mushrooms.png */,
+				44EC352D264821C900F4F8E2 /* deal.png */,
+				44554BC22666782100EC5A64 /* practice.png */,
+				44EC351C264821C900F4F8E2 /* dealButton.png */,
+				44C7D0DC26607330007F9A1F /* Pizza Party theme.mp3 */,
+				44C7D0BF265D3CDB007F9A1F /* NumberLineBackground.png */,
+				44EC3564264821DF00F4F8E2 /* dotRed.png */,
+				44EC3566264821DF00F4F8E2 /* WhiteBackground.png */,
+				44EC3534264821CA00F4F8E2 /* large dot.png */,
+				44EC352E264821C900F4F8E2 /* peppers-2.png */,
+				44EC3518264821C900F4F8E2 /* peppers.png */,
+				44EC3536264821CA00F4F8E2 /* pineapples.png */,
+			);
+			path = Assets.atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +430,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44554BBF266676F100EC5A64 /* dog5-2.png in Resources */,
+				44EC355A264821CA00F4F8E2 /* pineapples.png in Resources */,
+				44554BC32666782100EC5A64 /* practice.png in Resources */,
+				44554BBA266676F100EC5A64 /* dogSpeak.png in Resources */,
+				443ED872264B1DA700566F4C /* BluePickle.png in Resources */,
+				443ED85E264B08E200566F4C /* tenFrame.png in Resources */,
+				44EC3540264821CA00F4F8E2 /* dealButton.png in Resources */,
+				443ED85C264B082900566F4C /* TenFramesGameScene.sks in Resources */,
+				442504082656C29000417BAF /* count-2.png in Resources */,
+				44C7D0CA265D9573007F9A1F /* pepperoni.png in Resources */,
+				44554BC52666792300EC5A64 /* getStartedButton.png in Resources */,
+				44EC353C264821CA00F4F8E2 /* peppers.png in Resources */,
+				44C7D0D2265FED7C007F9A1F /* card0-3.png in Resources */,
+				44EC3551264821CA00F4F8E2 /* deal.png in Resources */,
 				4492A16926480E5900BCA9AD /* LaunchScreen.storyboard in Resources */,
-				4492A16626480E5900BCA9AD /* Assets.xcassets in Resources */,
+				44554BBC266676F100EC5A64 /* dog7.png in Resources */,
+				4484A99E2663F9CC000E1BB6 /* Pickle Race theme.m4a in Resources */,
+				44554BA7266674D900EC5A64 /* Background-7.png in Resources */,
+				443ED852264B05D000566F4C /* NumberLineGameScene.sks in Resources */,
 				4492A16426480E5800BCA9AD /* Main.storyboard in Resources */,
+				44C7D0C6265D930B007F9A1F /* Mushrooms.png in Resources */,
+				44554BAF266676E400EC5A64 /* dog1.png in Resources */,
+				443ED87A264B217500566F4C /* blankCard.png in Resources */,
+				443ED83D264B001C00566F4C /* PickleRaceGameScene.sks in Resources */,
+				44EC3558264821CA00F4F8E2 /* large dot.png in Resources */,
+				44554BC0266676F100EC5A64 /* dog2-2.png in Resources */,
+				44C7D0DD26607330007F9A1F /* Pizza Party theme.mp3 in Resources */,
+				443ED860264B158C00566F4C /* rollTheDiceLogo.png in Resources */,
+				443ED86E264B1A2D00566F4C /* smGYFSgamesLogo.png in Resources */,
+				44554BBD266676F100EC5A64 /* dog3.png in Resources */,
+				44554BF3266A6BA900EC5A64 /* logo1024.png in Resources */,
+				44EC3552264821CA00F4F8E2 /* peppers-2.png in Resources */,
+				443ED816264AFADC00566F4C /* MakeTenGameScene.sks in Resources */,
+				44554BBE266676F100EC5A64 /* wag2-2.png in Resources */,
+				44554BB9266676F100EC5A64 /* dog1.png in Resources */,
+				44554BA12666736D00EC5A64 /* WelcomeScene.sks in Resources */,
+				44554BF5266A6C6C00EC5A64 /* circleLogo.png in Resources */,
+				44EC3571264821DF00F4F8E2 /* WhiteBackground.png in Resources */,
+				44C7D0C2265D910A007F9A1F /* PizzaPartyLogo.png in Resources */,
+				44C7D0C0265D3CDC007F9A1F /* NumberLineBackground.png in Resources */,
+				443ED846264B018800566F4C /* PizzaPartyGameScene.sks in Resources */,
+				443ED876264B203800566F4C /* pickleRaceBackground.png in Resources */,
+				44554BC92666890600EC5A64 /* sayMyName.m4a in Resources */,
+				44554BC1266676F100EC5A64 /* dog4.png in Resources */,
+				443ED874264B1DD900566F4C /* RedPickle.png in Resources */,
+				44554C49267032A500EC5A64 /* backButton.png in Resources */,
+				44554C47267003A800EC5A64 /* Assets.xcassets in Resources */,
+				44EC356F264821DF00F4F8E2 /* dotRed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +488,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4492A16126480E5800BCA9AD /* ViewController.swift in Sources */,
+				443ED814264AFA2200566F4C /* MakeTenGameScene.swift in Sources */,
+				44929A272650218900C2C770 /* GamesMenuViewController.swift in Sources */,
+				4425040B2656CE4500417BAF /* RollTheDiceViewController.swift in Sources */,
+				443ED809264AF6B300566F4C /* AddItUpViewController.swift in Sources */,
+				442ECF9026484EB7006AE07F /* SpriteHomeViewController.swift in Sources */,
+				443ED839264AFFCD00566F4C /* PickleRaceViewController.swift in Sources */,
+				443ED88B264B67E700566F4C /* Video.swift in Sources */,
+				443ED889264B67CA00566F4C /* Response.swift in Sources */,
+				443ED844264B017000566F4C /* PizzaPartyGameScene.swift in Sources */,
+				443ED83B264AFFFF00566F4C /* PickleRaceGameScene.swift in Sources */,
+				4484A99C2662D713000E1BB6 /* Dice.rcproject in Sources */,
+				443ED887264B67A500566F4C /* Model.swift in Sources */,
+				443ED85A264B080700566F4C /* TenFramesGameScene.swift in Sources */,
+				44929A2B265027EE00C2C770 /* GamesCollectionViewCell.swift in Sources */,
+				443ED881264B66E800566F4C /* DetailViewController.swift in Sources */,
+				443ED87F264B66BF00566F4C /* Constants.swift in Sources */,
+				443ED812264AF9F600566F4C /* MakeTenViewController.swift in Sources */,
+				443ED840264B012B00566F4C /* PizzaPartyViewController.swift in Sources */,
 				4492A15D26480E5800BCA9AD /* AppDelegate.swift in Sources */,
+				443ED84E264B059700566F4C /* NumberLineGameScene.swift in Sources */,
 				4492A15F26480E5800BCA9AD /* SceneDelegate.swift in Sources */,
+				443ED883264B674500566F4C /* MathStoriesTableViewCell.swift in Sources */,
+				443ED87D264B669400566F4C /* CacheManager.swift in Sources */,
+				443ED885264B677C00566F4C /* MathStoriesViewController.swift in Sources */,
+				442ECF9226484FA8006AE07F /* WelcomeScene.swift in Sources */,
+				44554BF12667C54B00EC5A64 /* CountViewController.swift in Sources */,
+				443ED856264B079000566F4C /* TenFramesViewController.swift in Sources */,
+				443ED850264B05B600566F4C /* NumberLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
