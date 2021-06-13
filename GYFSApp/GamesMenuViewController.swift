@@ -61,8 +61,9 @@ class GamesMenuViewController: UIViewController, UICollectionViewDataSource, UIC
                     }
                   case "Segue1":
                     if let destVC = segue.destination as? PizzaPartyViewController {
-                       // Set the properties that need to be set in destVC
-                       //destVC.property = whatever needed
+                        destVC.modalPresentationStyle = .fullScreen
+                        self.present(destVC, animated: true, completion: nil)
+                       
                     }
 
                   case "Segue2":
@@ -73,6 +74,8 @@ class GamesMenuViewController: UIViewController, UICollectionViewDataSource, UIC
 
                   case "Segue3":
                     if let destVC = segue.destination as? MakeTenViewController {
+                        destVC.modalPresentationStyle = .fullScreen
+                        self.present(destVC, animated: true, completion: nil)
                        // Set the properties that need to be set in destVC
                             //destVC.property = whatever needed
                     }

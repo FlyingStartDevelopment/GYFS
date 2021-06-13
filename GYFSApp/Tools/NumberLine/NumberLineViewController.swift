@@ -16,11 +16,12 @@ class NumberLineViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "NumberLineGameScene") {
+            if let scene = SKScene(fileNamed: "NumberLineGameScene") as? NumberLineGameScene {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFit
                 
                 // Present the scene
+                scene.viewController = self
                 view.presentScene(scene)
             }
             

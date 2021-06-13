@@ -11,11 +11,18 @@ import GameplayKit
 class NumberLineGameScene: SKScene {
     
     var numberLine: SKSpriteNode?
-    
+    weak var viewController: UIViewController?
     private var movableNode: SKNode?
     
     
     override func didMove(to view: SKView) {
+        
+        let backButton = SKSpriteNode(imageNamed: "backButton")
+        backButton.size = CGSize(width: 160, height: 160)
+        backButton.position = CGPoint(x: -300, y: -120)
+        backButton.zPosition = 1
+        backButton.name = "back"
+        self.addChild(backButton)
         
         let numberLine = SKSpriteNode(imageNamed: "NumberLineBackground")
         numberLine.size = CGSize(width: 720, height: 350)
@@ -26,7 +33,7 @@ class NumberLineGameScene: SKScene {
         let circle = SKShapeNode(circleOfRadius: 10)
         circle.fillColor = .red
         circle.zPosition = 2
-        circle.position = CGPoint(x: -300, y: -100)
+        circle.position = CGPoint(x: -200, y: -100)
         
         circle.name = "draggable"
         addChild(circle)
@@ -34,7 +41,7 @@ class NumberLineGameScene: SKScene {
         let circle2 = SKShapeNode(circleOfRadius: 10)
         circle2.fillColor = .red
         circle2.zPosition = 2
-        circle2.position = CGPoint(x: -300, y: -100)
+        circle2.position = CGPoint(x: -200, y: -100)
         
         circle2.name = "draggable"
         addChild(circle2)
@@ -66,8 +73,16 @@ class NumberLineGameScene: SKScene {
             }
             
     }
+            for node in touchedNodes.reversed() {
+                if node.name == "back" {
+                    returnToMainMenu()
+        }
+        }
+            
         }
     }
+        
+        
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         
@@ -88,6 +103,11 @@ class NumberLineGameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame i
+    }
+        
+        func returnToMainMenu(){
+            viewController?.dismiss(animated: true, completion: nil)
+        
     }
 }
 

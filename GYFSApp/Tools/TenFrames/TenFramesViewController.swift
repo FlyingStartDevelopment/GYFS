@@ -16,11 +16,12 @@ class TenFramesViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "TenFramesGameScene") {
+            if let scene = SKScene(fileNamed: "TenFramesGameScene") as? TenFramesGameScene {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFit
                 
                 // Present the scene
+                scene.viewController = self
                 view.presentScene(scene)
             }
             

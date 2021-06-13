@@ -17,11 +17,12 @@ class MakeTenViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "MakeTenGameScene") {
+            if let scene = SKScene(fileNamed: "MakeTenGameScene") as? MakeTenGameScene {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFit
                 
                 // Present the scene
+                scene.viewController = self
                 view.presentScene(scene)
             }
             

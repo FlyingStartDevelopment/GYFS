@@ -17,15 +17,14 @@ class PickleRaceViewController: UIViewController {
         if let view = self.view as! SKView? {
             
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "PickleRaceGameScene") {
+            if let scene = SKScene(fileNamed: "PickleRaceGameScene") as? PickleRaceGameScene {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFit
             
                 // Present the scene
-                if let scene = PickleRaceGameScene(fileNamed: "PickleRaceGameScene") {
-                    // Other code
-                    scene.viewController = self
-                }
+            
+                scene.viewController = self
+            
                 view.presentScene(scene)
             }
             view.ignoresSiblingOrder = true

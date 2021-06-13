@@ -10,14 +10,22 @@ import GameplayKit
 
 class MakeTenGameScene: SKScene {
     
+    
+    weak var viewController: UIViewController?
     private var movableNode: SKNode?
     var dealButton: SKSpriteNode!
-    
+    var backButton: SKSpriteNode!
     
     var cardArray = [SKTexture(imageNamed: "card0"), SKTexture(imageNamed: "card1"), SKTexture(imageNamed: "card2"), SKTexture(imageNamed: "card3"), SKTexture(imageNamed: "card4"), SKTexture(imageNamed: "card5"), SKTexture(imageNamed: "card6"), SKTexture(imageNamed: "card7"), SKTexture(imageNamed: "card8"), SKTexture(imageNamed: "card9"), SKTexture(imageNamed: "card10")]
    
     override func didMove(to view: SKView) {
         
+        let backButton = SKSpriteNode(imageNamed: "backButton")
+        backButton.size = CGSize(width: 160, height: 160)
+        backButton.position = CGPoint(x: -300, y: -120)
+        backButton.zPosition = 1
+        backButton.name = "back"
+        addChild(backButton)
         
         let background = SKSpriteNode(imageNamed: "WhiteBackground")
         background.position = CGPoint(x: 0.5, y: 0.5)
@@ -149,27 +157,36 @@ class MakeTenGameScene: SKScene {
                        
                        let touchedNodes = self.nodes(at: location)
                         for node in touchedNodes.reversed() {
+                            
+
                             if node.name == "draggable" {
-                                self.movableNode = node
+                               self.movableNode = node
                 
                             }
-                            else {
+                            
+                                if node.name == "back" {
+                                    returnToMainMenu()
+            }
+            
                                 if node.name == "button" {
                                     
                                     let restartScene = MakeTenGameScene()
                                     restartScene.size = self.size
                                     restartScene.scaleMode = .aspectFit
                                     restartScene.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-                                    
+                                    restartScene.viewController = viewController
                                     self.view?.presentScene(restartScene)
+                                    
                                     
                                 }
      }
     }
                 
     }
+                        
         
-}
+        
+
 
 
         override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -195,7 +212,11 @@ class MakeTenGameScene: SKScene {
             // Called before each frame is rendered
         }
     
+    func returnToMainMenu(){
+        viewController?.dismiss(animated: true, completion: nil)
         
+    
+}
     
     }
 

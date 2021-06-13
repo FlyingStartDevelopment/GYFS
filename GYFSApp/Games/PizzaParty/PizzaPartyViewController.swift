@@ -17,13 +17,13 @@ class PizzaPartyViewController: UIViewController {
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             
-            if let scene = SKScene(fileNamed: "PizzaPartyGameScene") {
+            if let scene = SKScene(fileNamed: "PizzaPartyGameScene") as? PizzaPartyGameScene {
                 // Set the scale mode to scale to fit the window
                 
                 scene.scaleMode = .aspectFit
             
                 // Present the scene
-            
+                scene.viewController = self
                 view.presentScene(scene)
             }
             

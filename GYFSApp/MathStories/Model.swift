@@ -6,13 +6,15 @@
 //
 
 import Foundation
+import ClassKit
+import os
 
  protocol ModelDelegate {
     
     func videosFetched(_ videos:[Video])
  }
  
- class Model {
+class Model: NSObject {
     
     var delegate:ModelDelegate?
     

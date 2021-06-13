@@ -28,7 +28,6 @@
 		443ED85A264B080700566F4C /* TenFramesGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ED859264B080700566F4C /* TenFramesGameScene.swift */; };
 		443ED85C264B082900566F4C /* TenFramesGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 443ED85B264B082900566F4C /* TenFramesGameScene.sks */; };
 		443ED85E264B08E200566F4C /* tenFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED85D264B08E200566F4C /* tenFrame.png */; };
-		443ED860264B158C00566F4C /* rollTheDiceLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED85F264B158C00566F4C /* rollTheDiceLogo.png */; };
 		443ED86E264B1A2D00566F4C /* smGYFSgamesLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED86D264B1A2D00566F4C /* smGYFSgamesLogo.png */; };
 		443ED872264B1DA700566F4C /* BluePickle.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED871264B1DA700566F4C /* BluePickle.png */; };
 		443ED874264B1DD900566F4C /* RedPickle.png in Resources */ = {isa = PBXBuildFile; fileRef = 443ED873264B1DD900566F4C /* RedPickle.png */; };
@@ -60,7 +59,21 @@
 		44554BF3266A6BA900EC5A64 /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BF2266A6BA900EC5A64 /* logo1024.png */; };
 		44554BF5266A6C6C00EC5A64 /* circleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554BF4266A6C6C00EC5A64 /* circleLogo.png */; };
 		44554C47267003A800EC5A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44554C46267003A800EC5A64 /* Assets.xcassets */; };
-		44554C49267032A500EC5A64 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44554C48267032A500EC5A64 /* backButton.png */; };
+		445CA90226725E0600BC9A4F /* mushrooms.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA90126725E0600BC9A4F /* mushrooms.png */; };
+		445CA9062672815400BC9A4F /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA9052672815400BC9A4F /* backButton.png */; };
+		445CA908267285A000BC9A4F /* card0.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA907267285A000BC9A4F /* card0.png */; };
+		445CA90A2672860F00BC9A4F /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA9092672860F00BC9A4F /* card1.png */; };
+		445CA90C2672868800BC9A4F /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA90B2672868800BC9A4F /* card2.png */; };
+		445CA91026728E7900BC9A4F /* card4.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA90F26728E7900BC9A4F /* card4.png */; };
+		445CA91226728E9D00BC9A4F /* card5.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91126728E9D00BC9A4F /* card5.png */; };
+		445CA91426728EB900BC9A4F /* card6.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91326728EB900BC9A4F /* card6.png */; };
+		445CA91626728F8F00BC9A4F /* card7.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91526728F8F00BC9A4F /* card7.png */; };
+		445CA91826728FC200BC9A4F /* card8.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91726728FC200BC9A4F /* card8.png */; };
+		445CA91A26728FE500BC9A4F /* card9.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91926728FE500BC9A4F /* card9.png */; };
+		445CA91C2672900700BC9A4F /* card10.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91B2672900700BC9A4F /* card10.png */; };
+		445CA91E2672905A00BC9A4F /* card3.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91D2672905A00BC9A4F /* card3.png */; };
+		445CA9202672923800BC9A4F /* clearLogo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA91F2672923700BC9A4F /* clearLogo-2.png */; };
+		445CA9222672937B00BC9A4F /* Background-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 445CA9212672937B00BC9A4F /* Background-9.png */; };
 		4484A99C2662D713000E1BB6 /* Dice.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4484A99B2662D713000E1BB6 /* Dice.rcproject */; };
 		4484A99E2663F9CC000E1BB6 /* Pickle Race theme.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4484A99D2663F607000E1BB6 /* Pickle Race theme.m4a */; };
 		44929A272650218900C2C770 /* GamesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44929A262650218900C2C770 /* GamesMenuViewController.swift */; };
@@ -71,17 +84,12 @@
 		4492A16926480E5900BCA9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4492A16726480E5900BCA9AD /* LaunchScreen.storyboard */; };
 		44C7D0C0265D3CDC007F9A1F /* NumberLineBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0BF265D3CDB007F9A1F /* NumberLineBackground.png */; };
 		44C7D0C2265D910A007F9A1F /* PizzaPartyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0C1265D910A007F9A1F /* PizzaPartyLogo.png */; };
-		44C7D0C6265D930B007F9A1F /* Mushrooms.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0C5265D930B007F9A1F /* Mushrooms.png */; };
 		44C7D0CA265D9573007F9A1F /* pepperoni.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0C9265D9573007F9A1F /* pepperoni.png */; };
-		44C7D0D2265FED7C007F9A1F /* card0-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0D1265FED7C007F9A1F /* card0-3.png */; };
 		44C7D0DD26607330007F9A1F /* Pizza Party theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44C7D0DC26607330007F9A1F /* Pizza Party theme.mp3 */; };
-		44EC353C264821CA00F4F8E2 /* peppers.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3518264821C900F4F8E2 /* peppers.png */; };
 		44EC3540264821CA00F4F8E2 /* dealButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC351C264821C900F4F8E2 /* dealButton.png */; };
 		44EC3551264821CA00F4F8E2 /* deal.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC352D264821C900F4F8E2 /* deal.png */; };
-		44EC3552264821CA00F4F8E2 /* peppers-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC352E264821C900F4F8E2 /* peppers-2.png */; };
 		44EC3558264821CA00F4F8E2 /* large dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3534264821CA00F4F8E2 /* large dot.png */; };
-		44EC355A264821CA00F4F8E2 /* pineapples.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3536264821CA00F4F8E2 /* pineapples.png */; };
-		44EC356F264821DF00F4F8E2 /* dotRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3564264821DF00F4F8E2 /* dotRed.png */; };
+		44EC356F264821DF00F4F8E2 /* redDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3564264821DF00F4F8E2 /* redDot.png */; };
 		44EC3571264821DF00F4F8E2 /* WhiteBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44EC3566264821DF00F4F8E2 /* WhiteBackground.png */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +115,6 @@
 		443ED859264B080700566F4C /* TenFramesGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenFramesGameScene.swift; sourceTree = "<group>"; };
 		443ED85B264B082900566F4C /* TenFramesGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TenFramesGameScene.sks; sourceTree = "<group>"; };
 		443ED85D264B08E200566F4C /* tenFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tenFrame.png; path = ../../../GYFS/GYFS/Assets.xcassets/tenFrame.imageset/tenFrame.png; sourceTree = "<group>"; };
-		443ED85F264B158C00566F4C /* rollTheDiceLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rollTheDiceLogo.png; path = ../../../../Downloads/rollTheDiceLogo.png; sourceTree = "<group>"; };
 		443ED86D264B1A2D00566F4C /* smGYFSgamesLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smGYFSgamesLogo.png; path = ../../../../Downloads/smGYFSgamesLogo.png; sourceTree = "<group>"; };
 		443ED871264B1DA700566F4C /* BluePickle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BluePickle.png; path = ../../../GYFS/GYFS/Assets.xcassets/BluePickle.imageset/BluePickle.png; sourceTree = "<group>"; };
 		443ED873264B1DD900566F4C /* RedPickle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedPickle.png; path = ../../../GYFS/GYFS/Assets.xcassets/RedPickle.imageset/RedPickle.png; sourceTree = "<group>"; };
@@ -139,7 +146,22 @@
 		44554BF2266A6BA900EC5A64 /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1024.png; path = ../../../TenFramesCards/TenFramesCards/Assets.xcassets/AppIcon.appiconset/logo1024.png; sourceTree = "<group>"; };
 		44554BF4266A6C6C00EC5A64 /* circleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circleLogo.png; path = ../../../../Downloads/circleLogo.png; sourceTree = "<group>"; };
 		44554C46267003A800EC5A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../x/x/Assets.xcassets; sourceTree = "<group>"; };
-		44554C48267032A500EC5A64 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		445CA8FC267251EE00BC9A4F /* GYFSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GYFSApp.entitlements; sourceTree = "<group>"; };
+		445CA90126725E0600BC9A4F /* mushrooms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushrooms.png; sourceTree = "<group>"; };
+		445CA9052672815400BC9A4F /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		445CA907267285A000BC9A4F /* card0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card0.png; sourceTree = "<group>"; };
+		445CA9092672860F00BC9A4F /* card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card1.png; sourceTree = "<group>"; };
+		445CA90B2672868800BC9A4F /* card2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card2.png; sourceTree = "<group>"; };
+		445CA90F26728E7900BC9A4F /* card4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card4.png; sourceTree = "<group>"; };
+		445CA91126728E9D00BC9A4F /* card5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card5.png; sourceTree = "<group>"; };
+		445CA91326728EB900BC9A4F /* card6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card6.png; sourceTree = "<group>"; };
+		445CA91526728F8F00BC9A4F /* card7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7.png; sourceTree = "<group>"; };
+		445CA91726728FC200BC9A4F /* card8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card8.png; sourceTree = "<group>"; };
+		445CA91926728FE500BC9A4F /* card9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card9.png; sourceTree = "<group>"; };
+		445CA91B2672900700BC9A4F /* card10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10.png; sourceTree = "<group>"; };
+		445CA91D2672905A00BC9A4F /* card3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card3.png; sourceTree = "<group>"; };
+		445CA91F2672923700BC9A4F /* clearLogo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clearLogo-2.png"; sourceTree = "<group>"; };
+		445CA9212672937B00BC9A4F /* Background-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-9.png"; sourceTree = "<group>"; };
 		4484A99B2662D713000E1BB6 /* Dice.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Dice.rcproject; sourceTree = "<group>"; };
 		4484A99D2663F607000E1BB6 /* Pickle Race theme.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pickle Race theme.m4a"; path = "../../../../Downloads/Seasons/Seasons/Sounds/Pickle Race theme.m4a"; sourceTree = "<group>"; };
 		44929A262650218900C2C770 /* GamesMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesMenuViewController.swift; sourceTree = "<group>"; };
@@ -152,17 +174,12 @@
 		4492A16A26480E5900BCA9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C7D0BF265D3CDB007F9A1F /* NumberLineBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NumberLineBackground.png; path = ../../../../Downloads/NumberLineBackground.png; sourceTree = "<group>"; };
 		44C7D0C1265D910A007F9A1F /* PizzaPartyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PizzaPartyLogo.png; path = ../../../../Downloads/PizzaPartyLogo.png; sourceTree = "<group>"; };
-		44C7D0C5265D930B007F9A1F /* Mushrooms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mushrooms.png; path = ../../../../Downloads/Mushrooms.png; sourceTree = "<group>"; };
 		44C7D0C9265D9573007F9A1F /* pepperoni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepperoni.png; path = ../../../../Downloads/pepperoni.png; sourceTree = "<group>"; };
-		44C7D0D1265FED7C007F9A1F /* card0-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card0-3.png"; path = "../../../../Downloads/card0-3.png"; sourceTree = "<group>"; };
 		44C7D0DC26607330007F9A1F /* Pizza Party theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Pizza Party theme.mp3"; path = "../../../Pizza Party theme.mp3"; sourceTree = "<group>"; };
-		44EC3518264821C900F4F8E2 /* peppers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = peppers.png; path = ../../../GYFSAppAssets/peppers.png; sourceTree = "<group>"; };
 		44EC351C264821C900F4F8E2 /* dealButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dealButton.png; path = ../../../GYFSAppAssets/dealButton.png; sourceTree = "<group>"; };
 		44EC352D264821C900F4F8E2 /* deal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deal.png; path = ../../../GYFSAppAssets/deal.png; sourceTree = "<group>"; };
-		44EC352E264821C900F4F8E2 /* peppers-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "peppers-2.png"; path = "../../../GYFSAppAssets/peppers-2.png"; sourceTree = "<group>"; };
 		44EC3534264821CA00F4F8E2 /* large dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "large dot.png"; path = "../../../GYFSAppAssets/large dot.png"; sourceTree = "<group>"; };
-		44EC3536264821CA00F4F8E2 /* pineapples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pineapples.png; path = ../../../GYFSAppAssets/pineapples.png; sourceTree = "<group>"; };
-		44EC3564264821DF00F4F8E2 /* dotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dotRed.png; path = ../../../GYFSAppAssets/dotRed.png; sourceTree = "<group>"; };
+		44EC3564264821DF00F4F8E2 /* redDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redDot.png; path = ../../../GYFSAppAssets/redDot.png; sourceTree = "<group>"; };
 		44EC3566264821DF00F4F8E2 /* WhiteBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteBackground.png; path = ../../../GYFSAppAssets/WhiteBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -289,6 +306,13 @@
 			path = MathStories;
 			sourceTree = "<group>";
 		};
+		445CA92B2672BC9E00BC9A4F /* ClassKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClassKit;
+			sourceTree = "<group>";
+		};
 		4492A15026480E5800BCA9AD = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +332,8 @@
 		4492A15B26480E5800BCA9AD /* GYFSApp */ = {
 			isa = PBXGroup;
 			children = (
+				445CA92B2672BC9E00BC9A4F /* ClassKit */,
+				445CA8FC267251EE00BC9A4F /* GYFSApp.entitlements */,
 				443ED87B264B667900566F4C /* MathStories */,
 				443ED847264B052C00566F4C /* Tools */,
 				443ED80B264AF96900566F4C /* Games */,
@@ -330,9 +356,10 @@
 		44EC35162648215000F4F8E2 /* Assets.atlas */ = {
 			isa = PBXGroup;
 			children = (
-				44554C48267032A500EC5A64 /* backButton.png */,
+				445CA9052672815400BC9A4F /* backButton.png */,
+				445CA91F2672923700BC9A4F /* clearLogo-2.png */,
 				44554BC42666792300EC5A64 /* getStartedButton.png */,
-				443ED85F264B158C00566F4C /* rollTheDiceLogo.png */,
+				445CA9212672937B00BC9A4F /* Background-9.png */,
 				44554BAE266676E400EC5A64 /* dog1.png */,
 				4484A99D2663F607000E1BB6 /* Pickle Race theme.m4a */,
 				442504072656C29000417BAF /* count-2.png */,
@@ -343,32 +370,39 @@
 				44554BB4266676F100EC5A64 /* dog3.png */,
 				44554BB8266676F100EC5A64 /* dog4.png */,
 				44554BF4266A6C6C00EC5A64 /* circleLogo.png */,
+				445CA90B2672868800BC9A4F /* card2.png */,
+				445CA9092672860F00BC9A4F /* card1.png */,
 				44554BB6266676F100EC5A64 /* dog5-2.png */,
 				44554BB3266676F100EC5A64 /* dog7.png */,
 				44554BB1266676F100EC5A64 /* dogSpeak.png */,
 				44554BB5266676F100EC5A64 /* wag2-2.png */,
+				445CA907267285A000BC9A4F /* card0.png */,
 				443ED86D264B1A2D00566F4C /* smGYFSgamesLogo.png */,
 				443ED873264B1DD900566F4C /* RedPickle.png */,
 				44554BC8266688F800EC5A64 /* sayMyName.m4a */,
 				44554BF2266A6BA900EC5A64 /* logo1024.png */,
 				443ED879264B217500566F4C /* blankCard.png */,
+				445CA91126728E9D00BC9A4F /* card5.png */,
+				445CA91326728EB900BC9A4F /* card6.png */,
+				445CA90F26728E7900BC9A4F /* card4.png */,
 				44C7D0C9265D9573007F9A1F /* pepperoni.png */,
+				445CA91726728FC200BC9A4F /* card8.png */,
+				445CA91B2672900700BC9A4F /* card10.png */,
+				445CA91526728F8F00BC9A4F /* card7.png */,
+				445CA91926728FE500BC9A4F /* card9.png */,
 				443ED871264B1DA700566F4C /* BluePickle.png */,
 				443ED85D264B08E200566F4C /* tenFrame.png */,
-				44C7D0D1265FED7C007F9A1F /* card0-3.png */,
+				445CA91D2672905A00BC9A4F /* card3.png */,
 				44C7D0C1265D910A007F9A1F /* PizzaPartyLogo.png */,
-				44C7D0C5265D930B007F9A1F /* Mushrooms.png */,
+				445CA90126725E0600BC9A4F /* mushrooms.png */,
 				44EC352D264821C900F4F8E2 /* deal.png */,
 				44554BC22666782100EC5A64 /* practice.png */,
 				44EC351C264821C900F4F8E2 /* dealButton.png */,
 				44C7D0DC26607330007F9A1F /* Pizza Party theme.mp3 */,
 				44C7D0BF265D3CDB007F9A1F /* NumberLineBackground.png */,
-				44EC3564264821DF00F4F8E2 /* dotRed.png */,
+				44EC3564264821DF00F4F8E2 /* redDot.png */,
 				44EC3566264821DF00F4F8E2 /* WhiteBackground.png */,
 				44EC3534264821CA00F4F8E2 /* large dot.png */,
-				44EC352E264821C900F4F8E2 /* peppers-2.png */,
-				44EC3518264821C900F4F8E2 /* peppers.png */,
-				44EC3536264821CA00F4F8E2 /* pineapples.png */,
 			);
 			path = Assets.atlas;
 			sourceTree = "<group>";
@@ -431,7 +465,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				44554BBF266676F100EC5A64 /* dog5-2.png in Resources */,
-				44EC355A264821CA00F4F8E2 /* pineapples.png in Resources */,
 				44554BC32666782100EC5A64 /* practice.png in Resources */,
 				44554BBA266676F100EC5A64 /* dogSpeak.png in Resources */,
 				443ED872264B1DA700566F4C /* BluePickle.png in Resources */,
@@ -439,45 +472,54 @@
 				44EC3540264821CA00F4F8E2 /* dealButton.png in Resources */,
 				443ED85C264B082900566F4C /* TenFramesGameScene.sks in Resources */,
 				442504082656C29000417BAF /* count-2.png in Resources */,
+				445CA908267285A000BC9A4F /* card0.png in Resources */,
 				44C7D0CA265D9573007F9A1F /* pepperoni.png in Resources */,
 				44554BC52666792300EC5A64 /* getStartedButton.png in Resources */,
-				44EC353C264821CA00F4F8E2 /* peppers.png in Resources */,
-				44C7D0D2265FED7C007F9A1F /* card0-3.png in Resources */,
 				44EC3551264821CA00F4F8E2 /* deal.png in Resources */,
+				445CA91426728EB900BC9A4F /* card6.png in Resources */,
+				445CA90226725E0600BC9A4F /* mushrooms.png in Resources */,
+				445CA91C2672900700BC9A4F /* card10.png in Resources */,
+				445CA91826728FC200BC9A4F /* card8.png in Resources */,
 				4492A16926480E5900BCA9AD /* LaunchScreen.storyboard in Resources */,
+				445CA91026728E7900BC9A4F /* card4.png in Resources */,
 				44554BBC266676F100EC5A64 /* dog7.png in Resources */,
 				4484A99E2663F9CC000E1BB6 /* Pickle Race theme.m4a in Resources */,
 				44554BA7266674D900EC5A64 /* Background-7.png in Resources */,
 				443ED852264B05D000566F4C /* NumberLineGameScene.sks in Resources */,
+				445CA9202672923800BC9A4F /* clearLogo-2.png in Resources */,
+				445CA91626728F8F00BC9A4F /* card7.png in Resources */,
+				445CA90C2672868800BC9A4F /* card2.png in Resources */,
 				4492A16426480E5800BCA9AD /* Main.storyboard in Resources */,
-				44C7D0C6265D930B007F9A1F /* Mushrooms.png in Resources */,
 				44554BAF266676E400EC5A64 /* dog1.png in Resources */,
 				443ED87A264B217500566F4C /* blankCard.png in Resources */,
 				443ED83D264B001C00566F4C /* PickleRaceGameScene.sks in Resources */,
 				44EC3558264821CA00F4F8E2 /* large dot.png in Resources */,
 				44554BC0266676F100EC5A64 /* dog2-2.png in Resources */,
 				44C7D0DD26607330007F9A1F /* Pizza Party theme.mp3 in Resources */,
-				443ED860264B158C00566F4C /* rollTheDiceLogo.png in Resources */,
 				443ED86E264B1A2D00566F4C /* smGYFSgamesLogo.png in Resources */,
 				44554BBD266676F100EC5A64 /* dog3.png in Resources */,
 				44554BF3266A6BA900EC5A64 /* logo1024.png in Resources */,
-				44EC3552264821CA00F4F8E2 /* peppers-2.png in Resources */,
+				445CA91E2672905A00BC9A4F /* card3.png in Resources */,
 				443ED816264AFADC00566F4C /* MakeTenGameScene.sks in Resources */,
 				44554BBE266676F100EC5A64 /* wag2-2.png in Resources */,
 				44554BB9266676F100EC5A64 /* dog1.png in Resources */,
 				44554BA12666736D00EC5A64 /* WelcomeScene.sks in Resources */,
 				44554BF5266A6C6C00EC5A64 /* circleLogo.png in Resources */,
 				44EC3571264821DF00F4F8E2 /* WhiteBackground.png in Resources */,
+				445CA91A26728FE500BC9A4F /* card9.png in Resources */,
 				44C7D0C2265D910A007F9A1F /* PizzaPartyLogo.png in Resources */,
 				44C7D0C0265D3CDC007F9A1F /* NumberLineBackground.png in Resources */,
+				445CA90A2672860F00BC9A4F /* card1.png in Resources */,
 				443ED846264B018800566F4C /* PizzaPartyGameScene.sks in Resources */,
 				443ED876264B203800566F4C /* pickleRaceBackground.png in Resources */,
+				445CA91226728E9D00BC9A4F /* card5.png in Resources */,
+				445CA9222672937B00BC9A4F /* Background-9.png in Resources */,
 				44554BC92666890600EC5A64 /* sayMyName.m4a in Resources */,
+				445CA9062672815400BC9A4F /* backButton.png in Resources */,
 				44554BC1266676F100EC5A64 /* dog4.png in Resources */,
 				443ED874264B1DD900566F4C /* RedPickle.png in Resources */,
-				44554C49267032A500EC5A64 /* backButton.png in Resources */,
 				44554C47267003A800EC5A64 /* Assets.xcassets in Resources */,
-				44EC356F264821DF00F4F8E2 /* dotRed.png in Resources */,
+				44EC356F264821DF00F4F8E2 /* redDot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +704,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GYFSApp/GYFSApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P53LZM768;
 				INFOPLIST_FILE = GYFSApp/Info.plist;
@@ -669,6 +712,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = KarrinBurns.GYFSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -681,6 +725,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GYFSApp/GYFSApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P53LZM768;
 				INFOPLIST_FILE = GYFSApp/Info.plist;
@@ -688,6 +733,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = KarrinBurns.GYFSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

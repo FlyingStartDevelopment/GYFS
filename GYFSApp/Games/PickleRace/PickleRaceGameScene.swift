@@ -11,21 +11,21 @@ import GameplayKit
 class PickleRaceGameScene: SKScene {
     
     var backButton: SKSpriteNode!
-    var viewController: UIViewController?
+    weak var viewController: UIViewController?
     var mathLabel: SKLabelNode!
     var bluePickle: SKSpriteNode?
     var redPickle: SKSpriteNode?
     var mathArray = ["5 - 1", "5 - 2", "5 - 3", "5 - 5", "5 - 4", "5 + 1", "4 - 1", "4 - 2", "4 - 3", "4 - 4", "4 + 1", "3 - 1", "3 - 2", "3 - 3", "3 + 0", "3 + 1", "3 + 2", "3 + 3", "2 - 1", "2 - 2", "2 + 1", "2 + 2", "2 + 3", "1 - 0", "1 - 1", "1 - 0", "1 + 1", "1 + 2", "1 + 3", "1 + 4", "6 - 1", "6 - 2", "6 - 3", "6 - 5", "6 - 4", "7 - 6", "7 - 5", "7 - 4", "7 - 2", "8 - 3", "8 - 4", "8 - 5", "8 - 6", "8 - 7", "9 - 8", "9 - 7", "9 - 6", "9 - 5", "9 - 4", "10 - 9", "10 - 8", "10 - 7", "10 - 6", "10 - 5"]
     
-    var backgroundMusic: SKAction!
+    var backgroundMusic: SKAudioNode!
     private var movableNode: SKNode?
     let gameFont = "Avenir"
     
     override func didMove(to view: SKView) {
         
         let backButton = SKSpriteNode(imageNamed: "backButton")
-        backButton.size = CGSize(width: 100, height: 75)
-        backButton.position = CGPoint(x: -400, y: -160)
+        backButton.size = CGSize(width: 160, height: 160)
+        backButton.position = CGPoint(x: -415, y: -165)
         backButton.zPosition = 1
         backButton.name = "back"
         self.addChild(backButton)
@@ -65,8 +65,8 @@ class PickleRaceGameScene: SKScene {
         mathLabel.name = "math"
         addChild(mathLabel)
         
-        let backgroundMusic = SKAction.playSoundFileNamed("Pickle Race theme.m4a", waitForCompletion: true)
-        run(backgroundMusic)
+        let backgroundMusic = SKAudioNode(fileNamed: "Pickle Race theme.m4a")
+        addChild(backgroundMusic)
     }
     
     func touchDown(atPoint pos : CGPoint) {
@@ -85,7 +85,6 @@ class PickleRaceGameScene: SKScene {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
-    
         if let touch = touches.first {
                    let location = touch.location(in: self)
                    let touchedNodes = self.nodes(at: location)
@@ -99,6 +98,7 @@ class PickleRaceGameScene: SKScene {
             for node in touchedNodes.reversed() {
                 if node.name == "back" {
                     returnToMainMenu()
+                   
                 }
             }
           
@@ -106,7 +106,6 @@ class PickleRaceGameScene: SKScene {
                        if node.name == "draggable" {
                            self.movableNode = node
                        }
-                    
                    }
            }
     }
@@ -137,9 +136,7 @@ class PickleRaceGameScene: SKScene {
     
 }
     func returnToMainMenu(){
-        viewController?.performSegue(withIdentifier: "Games Menu View Controller", sender: self)
-        
+        viewController?.dismiss(animated: true, completion: nil)
+        removeAction(forKey: "bm")
     }
-
-   
-    }
+}
